@@ -16,8 +16,7 @@ const Hero = () => {
           Hi, I'm Alex.
         </h1>
         <h2 className="font-rubik text-3xl font-bold text-gray-400 mt-10 mx-10 md:w-2/3 md:text-left md:mx-0 md:flex-row">
-          I’m a <RotatingText/> Engineer skilled in both front-end and back-end
-          technologies, dedicated to crafting seamless and efficient web
+          I’m a skilled <RotatingText /> Engineer dedicated to crafting seamless and efficient web
           applications.
         </h2>
         <div className="w-full space-x-2 px-10 mb-20 md:space-x-5 md:px-0">
