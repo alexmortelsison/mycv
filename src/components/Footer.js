@@ -1,9 +1,14 @@
-import { AiFillGithub, AiFillLinkedin, AiOutlineCopyright, AiOutlineInstagram } from "react-icons/ai"; 
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 import React from "react";
 import alexLogo from "../assets/alex-logo-2.png";
 import { CgMail } from "react-icons/cg";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="flex my-24 ">
       <div className="flex items-center">
@@ -12,12 +17,11 @@ const Footer = () => {
           className="h-10 ml-10 lg:ml-20"
           alt="Alex Sison Logo"
         />
-        <h3 className="font-rubik flex items-center text-xl text-gray-500 font-semibold ml-1">
+        <h3 className="font-rubik flex items-center text-gray-500 font-semibold ml-1">
           Alex Sison
         </h3>
         <div className="flex items-center ml-2 text-gray-500">
-          <AiOutlineCopyright />
-          <p>2024</p>
+          <p>&copy;{currentYear} </p>
         </div>
 
         <div className="hidden md:flex gap-2 text-white ml-7">

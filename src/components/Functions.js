@@ -5,7 +5,7 @@ import React from "react";
 const Functions = () => {
   return (
     <div>
-      <div className="border rounded-3xl border-white flex md:flex-row mx-20 text-left mb-20">
+      <div className="border rounded-3xl border-white flex md:flex-row md:mx-20 text-left mb-20">
         <div className="p-5 w-full m-7">
           <AiOutlineTrophy size={60} className="text-indigo-600" />
           <h1 className="font-rubik text-white text-3xl font-semibold mt-2">
