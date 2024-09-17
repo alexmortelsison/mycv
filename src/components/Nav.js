@@ -14,8 +14,8 @@ const Nav = () => {
   };
 
   return (
-    <div>
-      <div className="w-full flex items-center justify-between mt-10">
+    <div className="sticky top-0 bg-indigo-800 opacity-80">
+      <div className="w-full flex items-center justify-between p-5">
         <div className="flex items-center">
           <img
             src={alexLogo}
